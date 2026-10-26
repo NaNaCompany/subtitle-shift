@@ -1,0 +1,14 @@
+{
+  "ideaId": "W037",
+  "slug": "subtitle-shift",
+  "title": "자막 시간 조정",
+  "ready": true,
+  "summary": "Six-language local SRT/WebVTT millisecond timing adjustment, bounded format conversion and overlap diagnostics.",
+  "features": ["UTF-8 file loading and editable text", "Positive/negative millisecond offsets and time factor", "Strict invalid/negative/reversed time rejection", "Overlap participant count and unordered cue warning", "Same-format cue ID/settings and literal payload preservation", "Bounded SRT/WebVTT conversion", "Copy and UTF-8 file export"],
+  "tests": [{"name":"Node app/core syntax checks","pass":true},{"name":"7 independent timing, parsing, conversion, payload and overlap fixtures","pass":true},{"name":"6 routes, localized label indices and relative asset checks","pass":true}],
+  "limitations": ["No browser QA performed", "Up to 1 MiB, 10000 cues, output under 100 hours", "VTT NOTE/STYLE/REGION, extra header metadata and inline timestamps rejected", "Conversion rejects nonshared tags and VTT cue settings", "Input line endings normalize to LF", "Language change resets input", "No speech recognition or video preview", "Not a comprehensive WebVTT syntax validator"],
+  "sources": ["https://www.w3.org/TR/webvtt1/","https://www.loc.gov/preservation/digital/formats/fdd/fdd000569.shtml"],
+  "languages": ["ko","en","es","zh","ja","de"],
+  "languageRoutes": {"ko":"/","en":"/en/","es":"/es/","zh":"/zh/","ja":"/ja/","de":"/de/"},
+  "entry": "dist/index.html"
+}

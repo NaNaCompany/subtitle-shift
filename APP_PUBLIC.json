@@ -1,0 +1,59 @@
+{
+  "slug": "subtitle-shift",
+  "url": "https://nanalab.kr/subtitle-shift/",
+  "languages": [
+    "ko",
+    "en",
+    "es",
+    "zh",
+    "ja",
+    "de"
+  ],
+  "locales": {
+    "ko": {
+      "name": "자막 시간 조정",
+      "description": "SRT·WebVTT 자막의 시간 이동·배율을 조정하고 겹침을 확인해 지원 범위 안에서 변환·저장하세요.",
+      "image_alt": "자막 시간 조정"
+    },
+    "en": {
+      "name": "Subtitle Shift",
+      "description": "Shift and scale SRT or WebVTT subtitle times, inspect overlaps, and convert or export within supported format limits.",
+      "image_alt": "Subtitle Shift"
+    },
+    "es": {
+      "name": "Ajuste de tiempos de subtítulos",
+      "description": "Desplaza y escala tiempos de subtítulos SRT o WebVTT, revisa solapamientos y convierte o exporta dentro de los límites admitidos.",
+      "image_alt": "Ajuste de tiempos de subtítulos"
+    },
+    "zh": {
+      "name": "字幕时间调整",
+      "description": "调整 SRT 或 WebVTT 字幕的时间偏移与倍率，检查重叠，并在支持范围内转换和保存。",
+      "image_alt": "字幕时间调整"
+    },
+    "ja": {
+      "name": "字幕の時間調整",
+      "description": "SRT・WebVTT字幕の時間移動と倍率を調整し、重なりを確認して対応範囲内で変換・保存できます。",
+      "image_alt": "字幕の時間調整"
+    },
+    "de": {
+      "name": "Untertitel-Zeitkorrektur",
+      "description": "Verschieben und skalieren Sie SRT- oder WebVTT-Zeiten, prüfen Sie Überlappungen und konvertieren oder speichern Sie im unterstützten Formatumfang.",
+      "image_alt": "Untertitel-Zeitkorrektur"
+    },
+    "fr": {
+      "name": "Décalage de sous-titres",
+      "description": "Décalez et ajustez l'échelle des temps SRT ou WebVTT, vérifiez les chevauchements et convertissez ou exportez les formats pris en charge.",
+      "image_alt": "Décalage de sous-titres"
+    },
+    "pt": {
+      "name": "Ajuste de tempo de legendas",
+      "description": "Desloque e ajuste a escala dos tempos de legendas SRT ou WebVTT, confira sobreposições e converta ou exporte dentro dos limites suportados.",
+      "image_alt": "Ajuste de tempo de legendas"
+    },
+    "ru": {
+      "name": "Сдвиг времени субтитров",
+      "description": "Сдвигайте и масштабируйте время субтитров SRT или WebVTT, проверяйте пересечения и преобразуйте или сохраняйте в пределах поддержки форматов.",
+      "image_alt": "Сдвиг времени субтитров"
+    }
+  }
+}

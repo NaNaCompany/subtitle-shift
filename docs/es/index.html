@@ -1,0 +1,78 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><base href="../"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ajuste de tiempos de subtítulos · NaNa Lab</title><link rel="stylesheet" href="style.css"><script type="module" src="app.js"></script>
+<meta name="robots" content="index,follow">
+<meta name="description" content="Desplaza y escala tiempos de subtítulos SRT o WebVTT, revisa solapamientos y convierte o exporta dentro de los límites admitidos.">
+<link rel="canonical" href="https://nanalab.kr/subtitle-shift/es/">
+<link rel="alternate" hreflang="ko" href="https://nanalab.kr/subtitle-shift/">
+<link rel="alternate" hreflang="en" href="https://nanalab.kr/subtitle-shift/en/">
+<link rel="alternate" hreflang="es" href="https://nanalab.kr/subtitle-shift/es/">
+<link rel="alternate" hreflang="zh" href="https://nanalab.kr/subtitle-shift/zh/">
+<link rel="alternate" hreflang="ja" href="https://nanalab.kr/subtitle-shift/ja/">
+<link rel="alternate" hreflang="de" href="https://nanalab.kr/subtitle-shift/de/">
+<link rel="alternate" hreflang="x-default" href="https://nanalab.kr/subtitle-shift/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nanalab.kr/subtitle-shift/es/">
+<meta property="og:title" content="Ajuste de tiempos de subtítulos">
+<meta property="og:description" content="Desplaza y escala tiempos de subtítulos SRT o WebVTT, revisa solapamientos y convierte o exporta dentro de los límites admitidos.">
+<meta property="og:image" content="https://nanalab.kr/subtitle-shift/og/es.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ajuste de tiempos de subtítulos">
+<meta name="twitter:description" content="Desplaza y escala tiempos de subtítulos SRT o WebVTT, revisa solapamientos y convierte o exporta dentro de los límites admitidos.">
+<meta name="twitter:image" content="https://nanalab.kr/subtitle-shift/og/es.jpg">
+<link rel="stylesheet" href="public.css">
+
+<!-- NaNa publisher: AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9767176956440077"
+        crossorigin="anonymous"></script>
+<!-- /NaNa publisher: AdSense -->
+<!-- NaNa publisher: GTM -->
+<script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })
+            (window, document, 'script', 'dataLayer', 'GTM-NV2WWQXB');
+    </script>
+<!-- /NaNa publisher: GTM -->
+<!-- NaNa publisher: Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZYSF0173P"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-2ZYSF0173P');
+    </script>
+<!-- /NaNa publisher: Analytics -->
+</head><body>
+<!-- NaNa publisher: GTM fallback -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NV2WWQXB" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+<!-- /NaNa publisher: GTM fallback -->
+<header><a href="./">NaNa / Subtitle Shift</a><label><span data-t="3"></span><select id="language"><option value="ko">한국어</option><option value="en">English</option><option value="es">Español</option><option value="zh">简体中文</option><option value="ja">日本語</option><option value="de">Deutsch</option></select></label></header><main><div class="eyebrow" data-t="23"></div><h1 data-t="1"></h1><p class="intro" data-t="2"></p><p class="hint" data-t="22"></p><div class="grid"><section class="panel"><h2 data-t="4"></h2><div class="actions"><button id="open" class="secondary" data-t="5"></button><button id="example" class="secondary" data-t="6"></button><input hidden type="file" id="file" accept=".srt,.vtt,text/plain,text/vtt"></div><p id="filename" class="hint"></p><label for="input" data-t="7"></label><textarea id="input" spellcheck="false"></textarea><div class="settings"><div><label for="offset" data-t="8"></label><input id="offset" type="number" min="-86400000" max="86400000" step="1" value="500"></div><div><label for="factor" data-t="9"></label><input id="factor" type="number" min="0.1" max="10" step="0.001" value="1"></div></div><label for="format" data-t="10"></label><select id="format"><option value="same" data-t="11"></option><option value="srt">SRT</option><option value="vtt">WebVTT</option></select><div class="actions"><button id="adjust" data-t="12"></button></div><p id="status" role="status" aria-live="polite"></p></section><section class="panel"><h2 data-t="13"></h2><div class="result-summary"><p id="stats" class="stat"></p><p id="order" class="hint"></p></div><label for="output" data-t="13"></label><textarea id="output" readonly spellcheck="false"></textarea><div class="actions"><button id="copy" data-t="14"></button><button id="download" class="secondary" data-t="15"></button></div><p class="hint" data-t="32"></p></section></div><details class="panel"><summary data-t="16"></summary><p data-t="17"></p><p data-t="18"></p><p data-t="19"></p><p data-t="20"></p><p data-t="21"></p><p data-t="33"></p><a href="https://www.w3.org/TR/webvtt1/" target="_blank" rel="noopener">W3C WebVTT</a> · <a href="https://www.loc.gov/preservation/digital/formats/fdd/fdd000569.shtml" target="_blank" rel="noopener">Library of Congress / SRT</a></details></main><footer><a href="https://nanalab.kr/apps/">More Apps</a></footer>
+<!-- NaNa publisher: Cloudflare fallback -->
+<script>
+(function () {
+  function ensureBeacon() {
+    // Cloudflare may inject its beacon at the edge. Reuse that script when present.
+    if (document.querySelector('script[src*="static.cloudflareinsights.com/beacon.min.js"]')) return;
+    var beacon = document.createElement('script');
+    beacon.defer = true;
+    beacon.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+    beacon.setAttribute('data-cf-beacon', JSON.stringify({token: '9f3423bb0d034d91bbe1a12afeff2429'}));
+    document.head.appendChild(beacon);
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ensureBeacon, {once: true});
+  else ensureBeacon();
+})();
+</script>
+<!-- /NaNa publisher: Cloudflare fallback -->
+</body></html>
